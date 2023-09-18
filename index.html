@@ -7,28 +7,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- HEADER -->
     <header class="header">
-        <div class="logo">
+        <div class="wrap-logo_header">
             <img class="logo-img" src="assets/logo.png" alt="">
         </div>
     </header>
 
+    <!-- SECCION TEXTO -->
     <section class="section_section-one">
-        <div class="box_section-one">
+        <div class="wrap_section-one">
             <h1 class="title_section-one">Landing Page</h1>
             <p class="paragraph_section-one">Lorem, ipsum dolor sit amet consectetur adipisicing 
                 elit. Eum illo sapiente ea consequatur odit! Necessitatibus dolor 
                 reiciendis nulla, error nemo iure minima voluptate eligendi aliquid inventore 
                 dolores fugiat, mollitia suscipit.
             </p>
-            <div>
+            <div class="wrap-cta_section-one">
                 <a href="#">?</a>
             </div>
         </div>
     </section>
 
+    <!-- SECCION MARCAS -->
     <section class="section_section-logo">
-        <div class="wrap_section-logo">
+        <div class="wrap-img_section-logo">
             <img src="assets/brands/audi.png" alt="" class="logo_section-logo">
             <img src="assets/brands/bmw.png" alt="" class="logo_section-logo">
             <img src="assets/brands/volkswagen.png" alt="" class="logo_section-logo">
@@ -37,9 +40,163 @@
         </div>
     </section>
     
-    <section class="section_section-servicios">
-        
+    <!-- SECCION SERVICIOS -->
+    <section class="section_section-services">
+        <div class="wrap-title_section-services">
+            <h2>Subtitulo servicios</h2>
+        </div>
+        <div class="wrap-services_section-services">
+            <a href="" class="item_section-services">
+                <img class="item-img_section-services" src="assets/cars/bora.png" alt="">
+                    <p>Item Categoria</p>
+                </img>
+            </a>
+            <a href="" class="item_section-services">
+                <img class="item-img_section-services" src="assets/cars/vento.png" alt="">
+                    <p>Item Categoria</p>
+                </img>
+            </a>
+            <a href="" class="item_section-services">
+                <img class="item-img_section-services" src="assets/cars/audia4.png" alt="">
+                    <p>Item Categoria</p>
+                </img>
+            </a>
+            <a href="" class="item_section-services">
+                <img class="item-img_section-services" src="assets/cars/tt.png" alt="">
+                    <p>Item Categoria</p>
+                </img>
+            </a>
+            <a href="" class="item_section-services">
+                <img class="item-img_section-services" src="assets/cars/gtr.png" alt="">
+                    <p>Item Categoria</p>
+                </img>
+            </a>
+            <a href="" class="item_section-services">
+                <img class="item-img_section-services" src="assets/cars/skyline.png" alt="">
+                    <p>Item Categoria</p>
+                </img>
+            </a>
+            <a href="" class="item_section-services">
+                <img class="item-img_section-services" src="assets/cars/abmw.png" alt="">
+                    <p>Item Categoria</p>
+                </img>
+            </a>
+            <a href="" class="item_section-services">
+                <img class="item-img_section-services" src="assets/cars/hilux.png" alt="">
+                    <p>Item Categoria</p>
+                </img>
+            </a>
+        </div>
     </section>
     
+    <!-- SECCION 2 COLUMNAS -->
+    <section class="section_section-two-columns">
+        <div class="wrap-title_section-two-columns">
+            <h2>Caracteristicas de nuestros servicios</h2>
+        </div>
+
+        <div class="wrap_section-two-columns">
+            <div class="wrap-img_section-two-columns">
+                <img src="" alt="">
+            </div>
+            <div class="wrap-img_section-two-columns">
+                <div class="wrap-title_section-two-columns">
+                    <h3>Mas caracteristicas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non hic beatae 
+                        voluptatem ipsum nesciunt animi ut laborum suscipit vel, quis nisi pariatur 
+                        veniam minima sequi natus quasi! 
+                        Nulla exercitationem provident nemo possimus nam fuga tenetur.
+                    </p>
+                    <div class="wrap-cta_section-two-columns">
+                        <a href="#">?</a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <!-- SECCION FORMULARIO -->
+    <section class="section_section-two-columns">
+        <div class="wrap-title_section-two-columns">
+            <h2>Formulario de Contacto</h2>
+        </div>
+
+        <div class="wrap_section-two-columns">
+            <div class="wrap-img_section-two-columns">
+                <div class="wrap-title_section-two-columns">
+                    <h3>Contaca con nosotros</h3>
+
+                    <form action="procesar_formulario.php" method="post" class="form">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" required="">
+                        <br><br>
+                        
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" name="asunto" id="asunto" required="">
+                        <br><br>
+                        
+                        <label for="mensaje">Mensaje:</label>
+                        <br>
+                        <textarea name="mensaje" id="mensaje" rows="4" cols="40" required=""></textarea>
+                        <br><br>
+                        
+                        <input type="submit" value="Enviar" class="cta-a">
+                    </form>
+                </div>
+            </div>
+
+            <div class="wrap-img_section-two-columns">
+                <img src="assets/logo.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer class="section_section-footer">
+        <div class="wrap_section-footer">
+          <div class="wrap_social-logos">
+            <ul>
+              <li>
+                <a href="">
+                  <img src="img/facebook.svg" alt="" class="social-logo">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="img/twitter.svg" alt="" class="social-logo">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="img/youtube.svg" alt="" class="social-logo">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="img/instagram.svg" alt="" class="social-logo">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="menu_section-footer">
+          <div class="wrap-menu_section-footer">
+            <ul>
+              <li><a href=""></a>Inicio</li>
+              <li><a href=""></a>Servicios</li>
+              <li><a href=""></a>Quienes Somos</li>
+              <li><a href=""></a>Blog</li>
+              <li><a href=""></a>Contacto</li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="menu_section-footer">
+          <div class="footer-creds">
+            <p>©copytight 2023 - laricoding.com - Todos los derechos reservados.</p>
+          </div>
+        </div>
+    
+      </footer>
 </body>
 </html>

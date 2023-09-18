@@ -17,6 +17,16 @@ header {
     width: 100px;
 }
 
+
 /* SECTION TEXTO*/
 
 /* SECTION MARCAS*/
+.logo_section-logo {
+    width: 100px;
+}
+
+/* SECTION AUTOS*/
+
+.item-img_section-services {
+    max-width: 400px;
+}
