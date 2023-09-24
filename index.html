@@ -9,14 +9,21 @@
 </head>
 <body>
   
-  <header class="header-landing">
+  <header class="header">
     <div class="wrap-logo">
-      <img src="assets/logo.png" alt="" class="logo-header">
+      <img src="assets/logo.png" alt="" class="logo">
     </div>
   </header>
+  
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+  </script>
 
-  <section class="hero-section">
-    <div class="wrap-hero-section">
+  <section class="hero">
+    <div class="wrap-hero">
       <h1>Landing Page</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quae illo repellat tempora voluptates, reprehenderit quos nam repellendus aspernatur corrupti perspiciatis beatae quo ipsum delectus?</p>
       <div class="wrap-cta">
@@ -25,59 +32,58 @@
     </div>
   </section>
 
-  <section class="section logos-section">
-    <h2 class="wrap-title-section">Marcas Asociadas</h2>
-    <div class="wrap-logos-section">
-      <img src="assets/brands/bmw.png" alt="" class="logo-brand">
+  <section class="logos-section">
+    <h2 class="wrap-title">Marcas Asociadas</h2>
+    <div class="wrap-logos">
       <img src="assets/brands/audi.png"" class="logo-brand">
+      <img src="assets/brands/bmw.png" alt="" class="logo-brand">
       <img src="assets/brands/volkswagen.png" alt="" class="logo-brand">
       <img src="assets/brands/toyota.png" alt="" class="logo-brand">
       <img src="assets/brands/nissan.png" alt="" class="logo-brand">
     </div>
   </section>
 
-  <section class="section servicios-section">
-    <div class="wrap-title-section">
+  <section class="servicios-section">
+    <div class="wrap-title">
       <h2>Categorías de Servicios</h2>
     </div>
-
-    <div class="wrap-servicios-section">
-      <a href="" class="item-servicios-section">
+    <div class="wrap-servicios">
+      <a href="" class="item-servicios">
         <img src="assets/cars/bora.png" alt="">
           <p>Volkswagen Bora 1.8T</p>
         </img>
       </a>
-      <a href="" class="item-servicios-section">
+      <a href="" class="item-servicios">
         <img src="assets/cars/vento.png" alt="">
           <p>Volkswagen Vento</p>
         </img>
       </a>
-      <a href="" class="item-servicios-section">
+      <a href="" class="item-servicios">
         <img src="assets/cars/audia4.png" alt="">
           <p>Audi A4</p>
         </img>
       </a>
-      <a href="" class="item-servicios-section">
+      <a href="" class="item-servicios">
         <img src="assets/cars/tt.png" alt="">
           <p>Audi TT 2001</p>
         </img>
       </a>
-      <a href="" class="item-servicios-section">
+      <a href="" class="item-servicios">
         <img src="assets/cars/gtr.png" alt="">
           <p>Nissan GTR</p>
         </img>
       </a>
-      <a href="" class="item-servicios-section">
+      <a href="" class="item-servicios">
         <img src="assets/cars/skyline.png" alt="">
           <p>Nissan Skyline</p>
         </img>
       </a>
-      <a href="" class="item-servicios-section">
+      <a href="" class="item-servicios">
         <img src="assets/cars/abmw.png" alt="">
           <p>BMW M3</p>
         </img>
       </a>
-      <a href="" class="item-servicios-section">
+      <a href="" class="item-servicios">
         <img src="assets/cars/hilux.png" alt="">
           <p>Toyota Hilux</p>
         </img>
@@ -85,9 +91,9 @@
     </div>
   </section>
 
-  <section class="section two-column-section">
+  <section class="two-column-section">
 
-    <div class="wrap-title-section">
+    <div class="wrap-title">
       <h2>Características de nuestros Servicios</h2>
     </div>
 
@@ -109,9 +115,9 @@
     </div>
   </section>
 
-  <section class="section two-column-section form">
+  <section class="two-column-section form">
 
-    <div class="wrap-title-section">
+    <div class="wrap-title">
       <h2>Formulario de Contacto</h2>
     </div>
 
@@ -148,7 +154,7 @@
   </section>
 
   <footer class="footer-section">
-    <div class="wrap-footer-section">
+    <div class="wrap-footer">
       <div class="wrap-social-logos">
         <ul>
           <li>
@@ -187,7 +193,7 @@
       </div>
     </div>
 
-    <div class="menu-footer-section">
+    <div class="menu-footer">
       <div class="footer-creds">
         <p>©copytight 2023 - dropcoding.com - Todos los derechos reservados.</p>
       </div>
